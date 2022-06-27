@@ -111,7 +111,7 @@ body{
     .brand a{
         color: white;
         text-align: center;
-        margin-left: 25px;
+        margin-left: 10px;
     }
     .hero img{
         width: 250px;
@@ -136,6 +136,12 @@ body{
 
 @media all and (max-width: 375px)  {
     .img img{
-        width: 350px;
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 414px)  {
+    .img img{
+        width: 300px;
     }
 }
