@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --PrimaryColor: #071E24;
+    --SecondaryColor: yellow;
+}
+.navbar-nav a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    color: var(--SecondaryColor);
+    font-weight: bold;
+    cursor: pointer;
+}
+.credit a{
+    color: red;
+    font-weight: bold;
+}
+.credit a:hover{
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+body{
+    background-color: var(--PrimaryColor) !important;
+}
+.hero{
+    min-height: 100vh;
+}
+.hero h2, h3, p{
+    font-family: 'Ubuntu', sans-serif;
+}
+.hero .btn-warning a{
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.hero .btn-warning a:hover{
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+.hero img{
+    width: 400px;
+}
+.brand a{
+    color: white;
+    padding: 3px;
+}
+.brand a:hover{
+    color: white;
+}
+.about{
+    min-height: 200px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+.about h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+.about p{
+    text-transform: capitalize;
+}
+.item-skill img{
+    height: 100px;
+    padding-bottom: 20px;
+}
+.img img{
+    width: 400px;
+}
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar-nav a{
+        color: white;
+        text-decoration: none;
+    }
+    .modal-body p{
+        text-align: left;
+    }
+    .credit a{
+        color: red;
+        font-weight: bold;
+    }
+    .credit a:hover{
+        color: red;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .hero h2, h3, p{
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        padding-bottom: 3px;
+    }
+    .hero button {
+        position: absolute;
+        margin-left: -50px;
+        left: 50%;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+    .brand{
+        text-align: center;
+    }
+    .brand a{
+        color: white;
+        text-align: center;
+        margin-left: 25px;
+    }
+    .hero img{
+        width: 250px;
+    }
+    .about h2{
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .about p{
+        text-transform: capitalize;
+        letter-spacing: 0.1px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .item-skill img{
+        height: 100px;
+        padding-bottom: 20px;
+    }
+    .img img{
+        width: 450px;
+    }
+}
